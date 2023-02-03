@@ -1,0 +1,12 @@
+# config/packages/api_platform.yaml
+# Fichier de conf de l'interface API
+api_platform:
+  title: 'Test REST API'
+  description: "Exemple d'une API REST"
+  version: '1.0.0'
+  mapping:
+    paths: ['%kernel.project_dir%/src/Entity']
+  patch_formats:
+    json: ['application/merge-patch+json']
+  swagger:
+    versions: [3]
