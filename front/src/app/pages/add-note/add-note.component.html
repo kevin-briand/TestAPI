@@ -1,0 +1,8 @@
+<form [formGroup]="note"><br>
+  <div>{{error}}</div>
+  <label for="title">Titre</label>
+  <input type="text" id="title" formControlName="title"><br>
+  <label for="content">Contenu</label>
+  <input type="text" id="content" formControlName="content"><br><br>
+  <button (click)="saveNote()">Enregistrer</button>
+</form>

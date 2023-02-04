@@ -1,0 +1,4 @@
+<a routerLink="/note/add">Ajout Note </a>
+<a routerLink="/note"> Notes</a>
+<a routerLink="/login" *ngIf="!usersService.isAuthentified()"> Login</a>
+<router-outlet></router-outlet>
