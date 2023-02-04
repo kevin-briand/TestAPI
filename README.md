@@ -16,3 +16,18 @@ php bin/console cache:clear
 ```
 
 ## Angular
+
+## Lancement
+```batch
+//Symfony (Avec symfony CLI)
+cd back
+symfony server:start --no-tls -d
+//Angular
+cd ../front
+ng serve
+```
+Accès API platform
+http://localhost:8000/api
+
+Accès App
+http://localhost:4200/
